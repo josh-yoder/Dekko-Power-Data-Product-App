@@ -1,0 +1,226 @@
+/*EMBEDDED WEBFONTS - OPEN SANS*/
+@font-face {
+	font-family: 'OpenSans-Extrabold';
+	src: url('fonts/OpenSans-Extrabold.eot');
+	src: url('fonts/OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/OpenSans-Extrabold.woff') format('woff'),
+		url('fonts/OpenSans-Extrabold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSansLight-Italic';
+	src: url('fonts/OpenSansLight-Italic.eot');
+	src: url('fonts/OpenSansLight-Italic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/OpenSansLight-Italic.woff') format('woff'),
+		url('fonts/OpenSansLight-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans-ExtraboldItalic';
+	src: url('fonts/OpenSans-ExtraboldItalic.eot');
+	src: url('fonts/OpenSans-ExtraboldItalic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/OpenSans-ExtraboldItalic.woff') format('woff'),
+		url('fonts/OpenSans-ExtraboldItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url('fonts/OpenSans-Light.eot');
+	src: url('fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/OpenSans-Light.woff') format('woff'),
+		url('fonts/OpenSans-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans-BoldItalic';
+	src: url('fonts/OpenSans-BoldItalic.eot');
+	src: url('fonts/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/OpenSans-BoldItalic.woff') format('woff'),
+		url('fonts/OpenSans-BoldItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans-Italic';
+	src: url('fonts/OpenSans-Italic.eot');
+	src: url('fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/OpenSans-Italic.woff') format('woff'),
+		url('fonts/OpenSans-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans-Semibold';
+	src: url('fonts/OpenSans-Semibold.eot');
+	src: url('fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/OpenSans-Semibold.woff') format('woff'),
+		url('fonts/OpenSans-Semibold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans-Bold';
+	src: url('fonts/OpenSans-Bold.eot');
+	src: url('fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/OpenSans-Bold.woff') format('woff'),
+		url('fonts/OpenSans-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans-SemiboldItalic';
+	src: url('fonts/OpenSans-SemiboldItalic.eot');
+	src: url('fonts/OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/OpenSans-SemiboldItalic.woff') format('woff'),
+		url('fonts/OpenSans-SemiboldItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	src: url('fonts/OpenSans.eot');
+	src: url('fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+		url('fonts/OpenSans.woff') format('woff'),
+		url('fonts/OpenSans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+header {
+    background-color: #FFFFFF;
+}
+#logo img{
+    width: 90vw;
+}
+#logo a.km-button {
+  display: block;
+  color: transparent;
+  border: 0 none;
+  padding: 0;
+  width: 100%;
+}
+#logo a.km-button.km-state-active {
+    background: #FFFFFF;
+}
+.app-slider {
+    overflow: hidden;
+}
+.app-slider div img {
+    width: 100vw;
+}
+.home-slider {
+  max-height: 74vh;
+}
+/*FOOTER*/
+.km-nova footer.km-footer {
+  background: #FFFFFF;
+}
+footer .home-menu h3 {
+  text-align: center;
+  font-family: OpenSans-Light;
+  font-size: 6vw;
+}
+footer .home-menu h3 a {
+  color: #000000 !important;
+}
+/*HOME VIEW*/
+.home-menu {
+/*    position: absolute;
+    bottom: 0;*/
+    width: 100%;
+/*    height: 18%;*/
+    background-color: #FFFFFF;
+}
+.home-menu a.menuBtn {
+  display: block;
+  width: 35vw;
+  height: 18vw;
+  padding: 0;
+  margin: 4vw auto;
+  border: 0 none;
+}
+.home-menu a.menuBtn#powerData {
+  background-image: url('../images/power-data-btn.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+}
+/*POWER AND DATA VIEW*/
+.sub-head {
+  margin: 0;
+  padding: 2% 7.3% 2%;
+  background-color: #878787;
+  line-height: 1;
+}
+.sub-head h2 {
+  color: #000000;
+  text-transform: uppercase;
+  font-family: OpenSans-bold;
+  text-shadow: none;
+  margin: 0;
+}
+.products {
+    background: #FFFFFF;
+    width: 100%;
+}
+.products ul {
+  margin: 4% auto 0 auto;
+  background: #FFFFFF;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+.products ul li {
+  display: inline-block;
+  max-width: 30%;
+  margin: 2% 1%;
+}
+.products ul li a img {
+  max-width: 100%;
+  margin-bottom: 0.75vh;
+}
+.products ul li a.km-button {
+  color: #000000;
+  font-family: OpenSans-Light;
+  border: 0 none;
+  text-align: center;
+  font-size: 3.75vw;
+  padding: 0;
+  border-radius: 0;
+}
+/*LVS PRODUCT*/
+.lvs-main div img {
+  max-width: 100%;
+}
+.lvs-main .sub-menu {
+  text-align: center;
+}
+.lvs-main .sub-menu a.km-button {
+  color: #000000;
+  font-family: OpenSans-Light;
+  margin: 5% 2% 0 2%;
+  max-width: 33%;
+  border: 1px solid #000000;
+  box-shadow: none;
+}
+.lvs-main .sub-menu a.km-button.km-state-active {
+  background: transparent;
+}
+/*LVS PRODUCT GALLERY*/
+.lvs-slider {
+  max-height: 47.5vh;
+}
