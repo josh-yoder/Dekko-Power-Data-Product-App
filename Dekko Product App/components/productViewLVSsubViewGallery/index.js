@@ -2,10 +2,10 @@
 
 app.productViewLVSsubViewGallery = kendo.observable({
     onShow: function() {
+        window.screen.lockOrientation('portrait');
         if($('.lvs-slider').hasClass('slick-initialized')) {
             $('.lvs-slider').slick('unslick');
         }
-        //
     },
     afterShow: function() {
         $('.lvs-slider').slick({

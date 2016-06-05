@@ -1,7 +1,9 @@
 'use strict';
 
 app.powerDataView = kendo.observable({
-    onShow: function() {},
+    onShow: function() {
+        window.screen.lockOrientation('portrait');
+    },
     afterShow: function() {}
 });
 

@@ -2,13 +2,40 @@
 
 app.productViewLVSVideo = kendo.observable({
     onShow: function() {
-        $('div[data-url="components/productViewLVSVideo/view.html"]').children('header').hide();
-        $('div[data-url="components/productViewLVSVideo/view.html"]').children('footer').hide();
+        //$('div[data-url="components/productViewLVSVideo/view.html"]').children('header').hide();
+        //$('div[data-url="components/productViewLVSVideo/view.html"]').children('footer').hide();
     },
     afterShow: function() {
-        window.plugins.html5Video.initialize({'lvsVideo': 'test.mp4'});
-        
+        window.plugins.html5Video.initialize({'lvsVideo': 'lvsvideo525new.mp4'}); 
         window.plugins.html5Video.play("lvsVideo");
+     
+      
+        $('#lvsVideo').on('play', function(){
+        
+            //$('#lsVideo').css('width', 'auto');
+            window.screen.lockOrientation('landscape');
+            $('div[data-url="components/productViewLVSVideo/view.html"]').children('header').hide();
+            $('div[data-url="components/productViewLVSVideo/view.html"]').children('footer').hide();
+        });
+        $('#lvsVideo').on('ended', function(){
+            //$('#lsVideo').css('width', '100%');
+            
+            var elem = document.getElementById("lvsVideo");
+            if (elem.exitFullscreen) {
+              elem.exitFullscreen();
+            } else if (elem.msExitFullscreen) {
+              elem.msExitFullscreen(); 
+            } else if (elem.mozExitFullScreen) {  
+              elem.mozRequestFullScreen();
+            } else if (elem.webkitExitFullscreen) {
+              elem.webkitExitFullscreen(); 
+            } 
+             
+            window.screen.lockOrientation('portrait');
+            
+            $('div[data-url="components/productViewLVSVideo/view.html"]').children('header').show();
+            $('div[data-url="components/productViewLVSVideo/view.html"]').children('footer').show();
+        });
     }
 });
 

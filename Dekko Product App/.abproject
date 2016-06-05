@@ -2,10 +2,10 @@
   "ProjectName": "Dekko Product App",
   "ProjectGuid": "a555586e-2562-4688-b127-522eadbaa45a",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.DekkoProductApp",
-  "DisplayName": "Dekko Product App",
-  "Author": "",
-  "Description": "Dekko Product App",
+  "AppIdentifier": "com.Dekko.DekkoPowerData",
+  "DisplayName": "Dekko Power & Data",
+  "Author": "Blue Door Visuals LLC",
+  "Description": "Dekko Power & Data Product Information App",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -46,9 +46,5 @@
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
   ],
-  "iOSDeploymentTarget": "6.0",
-  "CorePlugins": [
-    "com.telerik.plugins.nativepagetransitions@0.6.4",
-    "nl.x-services.plugins.insomnia@4.0.1"
-  ]
+  "iOSDeploymentTarget": "8.0"
 }

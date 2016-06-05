@@ -1,7 +1,9 @@
 'use strict';
 
 app.productViewLVS = kendo.observable({
-    onShow: function() {},
+    onShow: function() {
+        window.screen.lockOrientation('portrait');
+    },
     afterShow: function() {}
 });
 

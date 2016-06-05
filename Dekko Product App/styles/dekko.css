@@ -1,107 +1,153 @@
-/*EMBEDDED WEBFONTS - OPEN SANS*/
 @font-face {
-	font-family: 'OpenSans-Extrabold';
-	src: url('fonts/OpenSans-Extrabold.eot');
-	src: url('fonts/OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans-Extrabold.woff') format('woff'),
-		url('fonts/OpenSans-Extrabold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'brandonBlack';
+    src: url('brandontextblack.eot');
+    src: url('brandontextblack.eot?#iefix') format('embedded-opentype'),
+         url('brandontextblack.woff2') format('woff2'),
+         url('brandontextblack.woff') format('woff'),
+         url('brandontextblack.ttf') format('truetype'),
+         url('brandontextblack.svg#brandon_textblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'OpenSansLight-Italic';
-	src: url('fonts/OpenSansLight-Italic.eot');
-	src: url('fonts/OpenSansLight-Italic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSansLight-Italic.woff') format('woff'),
-		url('fonts/OpenSansLight-Italic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'brandonBlackItalic';
+    src: url('brandontextblackitalic.eot');
+    src: url('brandontextblackitalic.eot?#iefix') format('embedded-opentype'),
+         url('brandontextblackitalic.woff2') format('woff2'),
+         url('brandontextblackitalic.woff') format('woff'),
+         url('brandontextblackitalic.ttf') format('truetype'),
+         url('brandontextblackitalic.svg#brandon_textblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'OpenSans-ExtraboldItalic';
-	src: url('fonts/OpenSans-ExtraboldItalic.eot');
-	src: url('fonts/OpenSans-ExtraboldItalic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans-ExtraboldItalic.woff') format('woff'),
-		url('fonts/OpenSans-ExtraboldItalic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'brandonBold';
+    src: url('brandontextbold.eot');
+    src: url('brandontextbold.eot?#iefix') format('embedded-opentype'),
+         url('brandontextbold.woff2') format('woff2'),
+         url('brandontextbold.woff') format('woff'),
+         url('brandontextbold.ttf') format('truetype'),
+         url('brandontextbold.svg#brandon_textbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'OpenSans-Light';
-	src: url('fonts/OpenSans-Light.eot');
-	src: url('fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans-Light.woff') format('woff'),
-		url('fonts/OpenSans-Light.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'brandonBoldItalic';
+    src: url('fonts/brandontextbolditalic.eot');
+    src: url('fonts/brandontextbolditalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandontextbolditalic.woff2') format('woff2'),
+         url('fonts/brandontextbolditalic.woff') format('woff'),
+         url('fonts/brandontextbolditalic.ttf') format('truetype'),
+         url('fonts/brandontextbolditalic.svg#brandon_textbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'OpenSans-BoldItalic';
-	src: url('fonts/OpenSans-BoldItalic.eot');
-	src: url('fonts/OpenSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans-BoldItalic.woff') format('woff'),
-		url('fonts/OpenSans-BoldItalic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'brandonLight';
+    src: url('fonts/brandontextlight.eot');
+    src: url('fonts/brandontextlight.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandontextlight.woff2') format('woff2'),
+         url('fonts/brandontextlight.woff') format('woff'),
+         url('fonts/brandontextlight.ttf') format('truetype'),
+         url('fonts/brandontextlight.svg#brandon_textlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'OpenSans-Italic';
-	src: url('fonts/OpenSans-Italic.eot');
-	src: url('fonts/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans-Italic.woff') format('woff'),
-		url('fonts/OpenSans-Italic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'brandonLightItalic';
+    src: url('fonts/brandontextlightitalic.eot');
+    src: url('fonts/brandontextlightitalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandontextlightitalic.woff2') format('woff2'),
+         url('fonts/brandontextlightitalic.woff') format('woff'),
+         url('fonts/brandontextlightitalic.ttf') format('truetype'),
+         url('fonts/brandontextlightitalic.svg#brandon_textlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'OpenSans-Semibold';
-	src: url('fonts/OpenSans-Semibold.eot');
-	src: url('fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans-Semibold.woff') format('woff'),
-		url('fonts/OpenSans-Semibold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'brandonMedium';
+    src: url('fonts/brandontextmedium.eot');
+    src: url('fonts/brandontextmedium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandontextmedium.woff2') format('woff2'),
+         url('fonts/brandontextmedium.woff') format('woff'),
+         url('fonts/brandontextmedium.ttf') format('truetype'),
+         url('fonts/brandontextmedium.svg#brandon_textmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'OpenSans-Bold';
-	src: url('fonts/OpenSans-Bold.eot');
-	src: url('fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans-Bold.woff') format('woff'),
-		url('fonts/OpenSans-Bold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'brandonMediumItalic';
+    src: url('fonts/brandontextmediumitalic.eot');
+    src: url('fonts/brandontextmediumitalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandontextmediumitalic.woff2') format('woff2'),
+         url('fonts/brandontextmediumitalic.woff') format('woff'),
+         url('fonts/brandontextmediumitalic.ttf') format('truetype'),
+         url('fonts/brandontextmediumitalic.svg#brandon_textmedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'OpenSans-SemiboldItalic';
-	src: url('fonts/OpenSans-SemiboldItalic.eot');
-	src: url('fonts/OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans-SemiboldItalic.woff') format('woff'),
-		url('fonts/OpenSans-SemiboldItalic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'brandonRegular';
+    src: url('fonts/brandontextregular.eot');
+    src: url('fonts/brandontextregular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandontextregular.woff2') format('woff2'),
+         url('fonts/brandontextregular.woff') format('woff'),
+         url('fonts/brandontextregular.ttf') format('truetype'),
+         url('fonts/brandontextregular.svg#brandon_text_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: 'OpenSans';
-	src: url('fonts/OpenSans.eot');
-	src: url('fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
-		url('fonts/OpenSans.woff') format('woff'),
-		url('fonts/OpenSans.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'brandonRegularItalic';
+    src: url('fonts/brandontextregularitalic.eot');
+    src: url('fonts/brandontextregularitalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandontextregularitalic.woff2') format('woff2'),
+         url('fonts/brandontextregularitalic.woff') format('woff'),
+         url('fonts/brandontextregularitalic.ttf') format('truetype'),
+         url('fonts/brandontextregularitalic.svg#brandon_textregular_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandonThin';
+    src: url('fonts/brandontextthin.eot');
+    src: url('fonts/brandontextthin.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandontextthin.woff2') format('woff2'),
+         url('fonts/brandontextthin.woff') format('woff'),
+         url('fonts/brandontextthin.ttf') format('truetype'),
+         url('fonts/brandontextthin.svg#brandon_textthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'brandonThinItalic';
+    src: url('fonts/brandontextthinitalic.eot');
+    src: url('fonts/brandontextthinitalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brandontextthinitalic.woff2') format('woff2'),
+         url('fonts/brandontextthinitalic.woff') format('woff'),
+         url('fonts/brandontextthinitalic.ttf') format('truetype'),
+         url('fonts/brandontextthinitalic.svg#brandon_textthin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
 header {
     background-color: #FFFFFF;
+}
+header.km-header {
+  box-shadow: 0px -31px 5px 30px #a0a0a0;
 }
 #logo img{
     width: 90vw;
@@ -126,12 +172,15 @@ header {
   max-height: 74vh;
 }
 /*FOOTER*/
+footer.km-footer {
+  box-shadow: 0px 31px 5px 30px #a0a0a0;
+}
 .km-nova footer.km-footer {
   background: #FFFFFF;
 }
 footer .home-menu h3 {
   text-align: center;
-  font-family: OpenSans-Light;
+  font-family: brandonLight;
   font-size: 6vw;
 }
 footer .home-menu h3 a {
@@ -169,7 +218,7 @@ footer .home-menu h3 a {
 .sub-head h2 {
   color: #000000;
   text-transform: uppercase;
-  font-family: OpenSans-bold;
+  font-family: brandonLight;
   text-shadow: none;
   margin: 0;
 }
@@ -195,32 +244,135 @@ footer .home-menu h3 a {
 }
 .products ul li a.km-button {
   color: #000000;
-  font-family: OpenSans-Light;
+  font-family: brandonLight;
   border: 0 none;
   text-align: center;
   font-size: 3.75vw;
   padding: 0;
   border-radius: 0;
 }
-/*LVS PRODUCT*/
-.lvs-main div img {
+/*ALL PRODUCTS*/
+.prod-image {
+  overflow: hidden;
+  max-height: 47.5vh;
+}
+.prod-image img {
   max-width: 100%;
 }
-.lvs-main .sub-menu {
+.prod-info {
+  padding: 2.5vh 5vw 0;
+  font-family: brandonLight;
+}
+.prod-info h3 {
+  margin: 1vh 0 2vh;
+  font-family: brandonMedium; 
+  text-transform: uppercase;
+}
+.prod-info ul {
+  padding: 0 0 0 5.5vw;
+  margin: 0;
+}
+.prod-info ul li ul {
+    font-size: 85%;
+}
+.sub-menu {
   text-align: center;
 }
-.lvs-main .sub-menu a.km-button {
+.sub-menu a.km-button {
   color: #000000;
-  font-family: OpenSans-Light;
+  font-family: brandonLight;
   margin: 5% 2% 0 2%;
-  max-width: 33%;
+  width: 28%;
   border: 1px solid #000000;
   box-shadow: none;
+  font-size: 3vw;
 }
-.lvs-main .sub-menu a.km-button.km-state-active {
+.sub-menu a.km-button.km-state-active { 
   background: transparent;
+}
+/*LVS PRODUCT*/
+.lvs-main div.prod-image img { 
+  margin-top: -10vh;
 }
 /*LVS PRODUCT GALLERY*/
 .lvs-slider {
-  max-height: 47.5vh;
+  max-height: 61.15vh;
+} 
+/*LVS VIDEO*/
+.lvs-main video {
+  width: 100%;
+  margin-top: 10vh;
+  height: 50vh; 
 }
+/*ASHLEY DUO PRODUCT*/
+
+/*ASHLEY DUO PRODUCT GALLERY*/
+.ashDuo-slider {
+  max-height: 61.15vh;
+} 
+/*ASHLEY DUO AIR PRODUCT*/
+
+/*ASHLEY DUO AIR PRODUCT GALLERY*/
+.ashDuoAir-slider { 
+  max-height: 61.15vh; 
+} 
+/*ASHLEY DUO BEZEL PRODUCT*/
+
+/*ASHLEY DUO BEZEL PRODUCT GALLERY*/
+.ashDuoBezel-slider { 
+  max-height: 61.15vh; 
+} 
+/*ASHLEY DUO WEDGE PRODUCT*/
+
+/*ASHLEY DUO WEDGE PRODUCT GALLERY*/
+.ashDuoWedge-slider { 
+  max-height: 61.15vh; 
+} 
+/*ASHLEY DUO UNDER PRODUCT*/
+
+/*ASHLEY DUO UNDER PRODUCT GALLERY*/
+.ashDuoUnder-slider { 
+  max-height: 61.15vh; 
+} 
+/*ASHLEY TRIO PRODUCT*/
+
+/*ASHLEY TRIO PRODUCT GALLERY*/
+.ashTrio-slider { 
+  max-height: 61.15vh; 
+} 
+/*ASHLEY TRIO BEZEL PRODUCT*/
+
+/*ASHLEY TRIO BEZEL PRODUCT GALLERY*/
+.ashTrioBezel-slider { 
+  max-height: 61.15vh; 
+} 
+/*ASHLEY TRIO UNDER PRODUCT*/
+
+/*ASHLEY TRIO UNDER PRODUCT GALLERY*/
+.ashTrioUnder-slider { 
+  max-height: 61.15vh; 
+} 
+/*MINI TAP POWER TAP PRODUCT*/
+
+/*MINI TAP POWER TAP PRODUCT GALLERY*/
+.miniTap-slider { 
+  max-height: 61.15vh; 
+} 
+/*POP UP POWER TAP PRODUCT*/
+
+/*POP UP POWER TAP PRODUCT GALLERY*/
+.popTap-slider { 
+  max-height: 61.15vh; 
+} 
+/*STAFFORD PRODUCT*/
+
+/*STAFFORD PRODUCT GALLERY*/
+.stafford-slider { 
+  max-height: 61.15vh; 
+} 
+/*STAFFORD MINI PRODUCT*/
+
+/*STAFFORD MINI PRODUCT GALLERY*/
+.staffordMini-slider { 
+  max-height: 61.15vh;  
+} 
