@@ -173,7 +173,7 @@ header.km-header {
 }
 /*FOOTER*/
 footer.km-footer {
-  box-shadow: 0px 31px 5px 30px #a0a0a0;
+  /*box-shadow: 0px 31px 5px 30px #a0a0a0;*/
 }
 .km-nova footer.km-footer {
   background: #FFFFFF;
@@ -181,32 +181,34 @@ footer.km-footer {
 footer .home-menu h3 {
   text-align: center;
   font-family: brandonLight;
-  font-size: 6vw;
+  font-size: 2.75vw;
 }
 footer .home-menu h3 a {
   color: #000000 !important;
 }
 /*HOME VIEW*/
-.home-menu {
+.home-menu { 
 /*    position: absolute;
     bottom: 0;*/
     width: 100%;
 /*    height: 18%;*/
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; 
 }
 .home-menu a.menuBtn {
   display: block;
-  width: 35vw;
-  height: 18vw;
+/*  width: 35vw;
+  height: 18vw;*/
+  width: 20vw;
+  height: 10vw;
   padding: 0;
-  margin: 4vw auto;
+  margin: 3vw auto 0;
   border: 0 none;
 }
 .home-menu a.menuBtn#powerData {
   background-image: url('../images/power-data-btn.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 0 0;
+  background-position: 0 0; 
 }
 /*POWER AND DATA VIEW*/
 .sub-head {
@@ -215,10 +217,17 @@ footer .home-menu h3 a {
   background-color: #878787;
   line-height: 1;
 }
-.sub-head h2 {
+/*.sub-head h2 {
   color: #000000;
   text-transform: uppercase;
   font-family: brandonLight;
+  text-shadow: none;
+  margin: 0;
+}*/
+.sub-head h2 {
+  color: #FFF;
+  text-transform: uppercase;
+  font-family: brandonRegular;
   text-shadow: none;
   margin: 0;
 }
@@ -233,10 +242,15 @@ footer .home-menu h3 a {
   list-style-type: none;
   text-align: center;
 }
-.products ul li {
+/*.products ul li {
   display: inline-block;
   max-width: 30%;
   margin: 2% 1%;
+}*/
+.products ul li {
+  display: inline-block;
+  max-width: 17%;
+  margin: 1% 3%;
 }
 .products ul li a img {
   max-width: 100%;
@@ -247,21 +261,24 @@ footer .home-menu h3 a {
   font-family: brandonLight;
   border: 0 none;
   text-align: center;
-  font-size: 3.75vw;
+  font-size: 2.5vw;
   padding: 0;
   border-radius: 0;
+  vertical-align: top;
 }
 /*ALL PRODUCTS*/
 .prod-image {
-  overflow: hidden;
-  max-height: 47.5vh;
+/*  overflow: hidden;
+  height: 350px;*/
 }
 .prod-image img {
-  max-width: 100%;
+  max-width: 100%; 
 }
 .prod-info {
   padding: 2.5vh 5vw 0;
   font-family: brandonLight;
+  max-height: 61.3vh;
+  margin-bottom: 3%;
 }
 .prod-info h3 {
   margin: 1vh 0 2vh;
@@ -285,18 +302,21 @@ footer .home-menu h3 a {
   width: 28%;
   border: 1px solid #000000;
   box-shadow: none;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 .sub-menu a.km-button.km-state-active { 
   background: transparent;
 }
-/*LVS PRODUCT*/
-.lvs-main div.prod-image img { 
-  margin-top: -10vh;
+.app-slider img {
+    max-width: 100vw;
 }
+/*LVS PRODUCT*/
+/*.lvs-main div.prod-image img { 
+  margin-top: -10vh;
+}*/
 /*LVS PRODUCT GALLERY*/
 .lvs-slider {
-  max-height: 61.15vh;
+  max-height: 61.3vh;
 } 
 /*LVS VIDEO*/
 .lvs-main video {
@@ -307,72 +327,72 @@ footer .home-menu h3 a {
 /*ASHLEY DUO PRODUCT*/
 
 /*ASHLEY DUO PRODUCT GALLERY*/
-.ashDuo-slider {
-  max-height: 61.15vh;
+.ashDuo-slider { 
+  max-height: 61.3vh;  
 } 
 /*ASHLEY DUO AIR PRODUCT*/
 
 /*ASHLEY DUO AIR PRODUCT GALLERY*/
 .ashDuoAir-slider { 
-  max-height: 61.15vh; 
+  max-height: 61.3vh; 
 } 
 /*ASHLEY DUO BEZEL PRODUCT*/
 
 /*ASHLEY DUO BEZEL PRODUCT GALLERY*/
 .ashDuoBezel-slider { 
-  max-height: 61.15vh; 
+  max-height: 61.3vh; 
 } 
 /*ASHLEY DUO WEDGE PRODUCT*/
 
 /*ASHLEY DUO WEDGE PRODUCT GALLERY*/
 .ashDuoWedge-slider { 
-  max-height: 61.15vh; 
+  max-height: 61.3vh; 
 } 
 /*ASHLEY DUO UNDER PRODUCT*/
 
 /*ASHLEY DUO UNDER PRODUCT GALLERY*/
 .ashDuoUnder-slider { 
-  max-height: 61.15vh; 
+  max-height: 61.3vh; 
 } 
 /*ASHLEY TRIO PRODUCT*/
 
 /*ASHLEY TRIO PRODUCT GALLERY*/
 .ashTrio-slider { 
-  max-height: 61.15vh; 
+  max-height: 61.3vh; 
 } 
 /*ASHLEY TRIO BEZEL PRODUCT*/
 
 /*ASHLEY TRIO BEZEL PRODUCT GALLERY*/
 .ashTrioBezel-slider { 
-  max-height: 61.15vh; 
+  max-height: 61.3vh; 
 } 
 /*ASHLEY TRIO UNDER PRODUCT*/
 
 /*ASHLEY TRIO UNDER PRODUCT GALLERY*/
 .ashTrioUnder-slider { 
-  max-height: 61.15vh; 
+  max-height: 61.3vh; 
 } 
 /*MINI TAP POWER TAP PRODUCT*/
 
 /*MINI TAP POWER TAP PRODUCT GALLERY*/
 .miniTap-slider { 
-  max-height: 61.15vh; 
+  max-height: 61.3vh; 
 } 
 /*POP UP POWER TAP PRODUCT*/
 
 /*POP UP POWER TAP PRODUCT GALLERY*/
 .popTap-slider { 
-  max-height: 61.15vh; 
+  max-height: 61.3vh; 
 } 
 /*STAFFORD PRODUCT*/
 
 /*STAFFORD PRODUCT GALLERY*/
 .stafford-slider { 
-  max-height: 61.15vh; 
+  max-height: 61.3vh; 
 } 
 /*STAFFORD MINI PRODUCT*/
 
 /*STAFFORD MINI PRODUCT GALLERY*/
 .staffordMini-slider { 
-  max-height: 61.15vh;  
+  max-height: 61.3vh;  
 } 
