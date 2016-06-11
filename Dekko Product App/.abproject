@@ -2,7 +2,7 @@
   "ProjectName": "Dekko Product App",
   "ProjectGuid": "a555586e-2562-4688-b127-522eadbaa45a",
   "projectVersion": 1,
-  "AppIdentifier": "com.Dekko.DekkoPowerData",
+  "AppIdentifier": "com.dekko.dekkoPowerData",
   "DisplayName": "Dekko Power & Data",
   "Author": "Blue Door Visuals LLC",
   "Description": "Dekko Power & Data Product Information App",
@@ -16,10 +16,6 @@
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
   "FrameworkVersion": "4.0.0",
   "AndroidPermissions": [
-    "android.permission.CHANGE_WIFI_MULTICAST_STATE",
-    "android.permission.CHANGE_WIFI_STATE",
-    "android.permission.INTERNET",
-    "android.permission.MEDIA_CONTENT_CONTROL",
     "android.permission.WAKE_LOCK"
   ],
   "DeviceOrientations": [
@@ -27,7 +23,7 @@
     "Landscape"
   ],
   "AndroidHardwareAcceleration": "true",
-  "iOSStatusBarStyle": "Default",
+  "iOSStatusBarStyle": "BlackTranslucent",
   "Framework": "Cordova",
   "WP8TileTitle": "",
   "WP8Publisher": "",
@@ -46,5 +42,9 @@
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
   ],
-  "iOSDeploymentTarget": "8.0"
+  "iOSDeploymentTarget": "8.0",
+  "CorePlugins": [
+    "com.telerik.plugins.nativepagetransitions@0.6.5",
+    "cordova-plugin-crosswalk-webview@1.7.2"
+  ]
 }
