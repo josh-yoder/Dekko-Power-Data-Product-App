@@ -3,6 +3,9 @@
 app.productViewLVS = kendo.observable({
     onShow: function() {
         window.screen.lockOrientation('portrait');
+
+        $('div[data-url="components/productViewLVS/view.html"]').children('header').show();
+        $('div[data-url="components/productViewLVS/view.html"]').children('footer').show();
     },
     afterShow: function() {}
 });

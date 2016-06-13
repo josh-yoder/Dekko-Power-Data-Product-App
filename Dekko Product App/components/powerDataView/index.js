@@ -3,6 +3,10 @@
 app.powerDataView = kendo.observable({
     onShow: function() {
         window.screen.lockOrientation('portrait');
+        
+        $('div[data-url="components/productViewLVSVideo/view.html"]').children('header').show();
+        $('div[data-url="components/productViewLVSVideo/view.html"]').children('footer').show();
+        
     },
     afterShow: function() {}
 });

@@ -4,6 +4,9 @@ app.homeView = kendo.observable({
     onShow: function() {
         window.plugins.insomnia.keepAwake(); 
         window.screen.lockOrientation('portrait');
+        
+        $('div[data-url="components/productViewLVSVideo/view.html"]').children('header').show();
+        $('div[data-url="components/productViewLVSVideo/view.html"]').children('footer').show();
         if($('.home-slider').hasClass('slick-initialized')) {
             $('.home-slider').slick('unslick');
         }

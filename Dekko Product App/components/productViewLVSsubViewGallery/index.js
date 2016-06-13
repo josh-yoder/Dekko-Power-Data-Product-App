@@ -3,11 +3,14 @@
 app.productViewLVSsubViewGallery = kendo.observable({
     onShow: function() {
         window.screen.lockOrientation('portrait');
+        
         if($('.lvs-slider').hasClass('slick-initialized')) {
             $('.lvs-slider').slick('unslick');
         }
     },
     afterShow: function() {
+        $('div[data-url="components/productViewLVSsubViewGallery/view.html"]').children('header').show();
+        $('div[data-url="components/productViewLVSsubViewGallery/view.html"]').children('footer').show();
         $('.lvs-slider').slick({
             autoplay: true,
             autoplaySpeed: 3500,
