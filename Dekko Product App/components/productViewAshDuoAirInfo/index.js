@@ -2,7 +2,7 @@
 
 app.productViewAshDuoAirInfo = kendo.observable({
     onShow: function() {
-        window.screen.lockOrientation('portrait');
+        //window.screen.lockOrientation('portrait');
     },
     afterShow: function() {}
 });

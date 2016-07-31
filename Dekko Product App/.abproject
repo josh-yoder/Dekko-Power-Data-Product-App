@@ -42,9 +42,5 @@
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
   ],
-  "iOSDeploymentTarget": "8.0",
-  "CorePlugins": [
-    "com.telerik.plugins.nativepagetransitions@0.6.5",
-    "cordova-plugin-crosswalk-webview@1.7.2"
-  ]
+  "iOSDeploymentTarget": "8.0"
 }

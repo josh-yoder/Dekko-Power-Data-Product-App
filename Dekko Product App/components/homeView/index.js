@@ -2,8 +2,8 @@
 
 app.homeView = kendo.observable({
     onShow: function() {
-        window.plugins.insomnia.keepAwake(); 
-        window.screen.lockOrientation('portrait');
+        //window.plugins.insomnia.keepAwake(); 
+        //window.screen.lockOrientation('portrait');
         
         $('div[data-url="components/productViewLVSVideo/view.html"]').children('header').show();
         $('div[data-url="components/productViewLVSVideo/view.html"]').children('footer').show();

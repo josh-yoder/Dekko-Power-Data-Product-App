@@ -346,6 +346,26 @@ footer .home-menu h3 a {
 .ashDuoAir-slider { 
   height: 56.3vh; 
 } 
+/*ASHLEY DUO AIR INFORMATION*/
+.ash-duo-air-main .products ul li {
+  display: inline-block;
+  max-width: 38%;
+  margin: 1% 3%;
+}
+.ash-duo-air-main .products ul li a img {
+  max-width: 100%;
+  margin-bottom: 0.75vh;
+}
+.ash-duo-air-main .products ul li a.km-button {
+  color: #000000;
+  font-family: brandonLight;
+  border: 0 none;
+  text-align: center;
+  font-size: 3vw;
+  padding: 0;
+  border-radius: 0;
+  vertical-align: top;
+}
 /*ASHLEY DUO BEZEL PRODUCT*/
 
 /*ASHLEY DUO BEZEL PRODUCT GALLERY*/
