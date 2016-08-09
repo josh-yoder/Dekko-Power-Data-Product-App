@@ -1,17 +1,20 @@
-<div data-role="view" style="background: #FFFFFF;" data-title="Ashley Duo Bezel" data-layout="main" data-model="app.productViewAshDuoBezel" data-show="app.productViewAshDuoBezel.onShow" data-after-show="app.productViewAshDuoBezel.afterShow">
+<div data-role="view" style="background: #FFFFFF;" data-title="Ashley Duo Air" data-layout="main" data-model="app.productViewAshDuoBezelBrochure" data-show="app.productViewAshDuoBezelBrochure.onShow" data-after-show="app.productViewAshDuoBezelBrochure.afterShow">
     <!-- START_CUSTOM_CODE_contactsView -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
 <!--    <ul data-role="listview" data-style="inset" data-template="contactsTemplate" data-bind="source: dataSource"></ul>-->
     <div class="sub-head">
         <h2>Ashley Duo Bezel</h2>
     </div>
-    <div class="ash-duo-bezel-main">
-        <div class="prod-image">
-            <img src="components/images/ashDuoBezel/ashley-duo-bezel-application-image-2.jpg" alt="">
+    <div class="ash-duo-air-main">
+        <div class="prod-info" style="padding: 0;">   
+            <iframe src="components/brochures/ashDuoAir/index.html" width="100%" style="height: 63.125vh; overflow-x: scroll;"></iframe>
+			
         </div>
         <div class="sub-menu">
+            <a data-role="button" data-icon="home" href="components/productViewAshDuoBezel/view.html" data-transition="fade"> Product Home</a>
             <a data-role="button" data-icon="organize" href="components/productViewAshDuoBezelSubViewGallery/view.html" data-transition="fade"> Gallery</a>
             <a data-role="button" data-icon="info" href="components/productViewAshDuoBezelInfo/view.html" data-transition="fade"> Information</a>
+
         </div>
     </div>
 </div>

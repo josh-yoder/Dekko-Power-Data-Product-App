@@ -1,6 +1,6 @@
 'use strict'; 
 
-app.homeView = kendo.observable({
+app.homeView = kendo.observable({ 
     onShow: function() {
         //window.plugins.insomnia.keepAwake(); 
         //window.screen.lockOrientation('portrait');

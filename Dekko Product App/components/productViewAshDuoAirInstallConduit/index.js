@@ -2,7 +2,7 @@
 
 app.productViewAshDuoAirInstallConduit = kendo.observable({
     onShow: function() {
-        //window.screen.lockOrientation('portrait');
+        window.screen.lockOrientation('portrait');
         //cordova.InAppBrowser.open('test.pdf', '_blank');
     },
     afterShow: function() { 
