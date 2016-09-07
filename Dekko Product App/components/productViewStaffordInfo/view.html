@@ -1,30 +1,73 @@
-<div data-role="view" style="background: #FFFFFF;" data-title="Stafford" data-layout="main" data-model="app.productViewStaffordInfo" data-show="app.productViewStaffordInfo.onShow" data-after-show="app.productViewStaffordInfo.afterShow">
+<div data-role="view" style="background: #FFFFFF;" data-title="Stafford Plus" data-layout="main" data-model="app.productViewStaffordInfo" data-show="app.productViewStaffordInfo.onShow" data-after-show="app.productViewStaffordInfo.afterShow">
+    <!-- START_CUSTOM_CODE_contactsView -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+<!--    <ul data-role="listview" data-style="inset" data-template="contactsTemplate" data-bind="source: dataSource"></ul>-->
     <div class="sub-head">
-        <h2>Stafford</h2>
+        <h2>Stafford</h2>  
     </div>
-    <div class="stafford-main">
-        <div class="prod-info">
+    <div class="stafford-main">   
+<div class="products">
+            <ul>
+                <li>
+                    <a href="components/productViewStaffordBrochure/view.html" data-role="button" data-transition="fade">
+                        <img src="components/productViewStaffordInfo/images/staffordBrochure.png" alt=""> 
+                        <span>Stafford Brochure</span>
+                    </a>  
+                </li>
+                <li>
+                    <a href="#" data-role="button" data-transition="fade">
+                        <img src="components/productViewStaffordInfo/images/placeholder.png" alt="">
+                        <span>Price List</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="components/productViewStaffordInstallCorded/view.html" data-role="button" data-transition="fade">
+                        <img src="components/productViewStaffordInfo/images/staffordCorded.png" alt="">
+                        <span>Stafford Installation Instructions - Corded</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="components/productViewStaffordInstallConduit/view.html" data-role="button" data-transition="fade">
+                        <img src="components/productViewStaffordInfo/images/staffordConduit.png" alt="">
+                        <span>Stafford Installation Instructions - Conduit</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="components/productViewStaffordInstallPerimeter/view.html" data-role="button" data-transition="fade">
+                        <img src="components/productViewStaffordInfo/images/staffordPerimeter.png" alt="">
+                        <span>Stafford Installation Instructions - Perimeter</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+ <!--       <div class="prod-info">
             <h3>Design</h3>
             <ul>
-                <li>Continuous-cast bezel offers consistent, clean contact with table surface, presenting trim lines, smooth/seamless to the touch</li>
-                <li>Resistance-hinge doors stay open on any angle for cable exit or lay flush</li>
-                <li>Cavity for cable storage, entry/exit</li>
+                <li>Clean Lines: Smooth face over USB ports and receptacle outlets, with a slim Wedge</li>
+                <li>Open or Closed</li>
+                <li>Quiet Closure: Gas strut mechanism, light touch to open or close</li>
             </ul>
             <h3>Technology</h3>
             <ul>
-                <li>4 2.1 Amp USB ports with Smart Recognition Chip</li>
-                <li>4 AC outlets</li>
-                <li>Choice of 4 Extron Mini MAAP plates</li>
-                <li>FCC 15 Part A approved: No interference with other devices</li>
-                <li>USB UL 1310 Recognized Class 2</li>
-                <li>UL Listed UL962A UL962, UL Recognized UL111</li>
+                <li>Dual 2.1 amp USB ports with Smart Recognition Chip
+                    <ul>
+                        <li>Monitor the power request from a device to self-regulate and supply all 2.1 amps or less, as needed by the device.</li>
+                    </ul>
+                </li>
+                <li>FCC 15 Part A Approved
+                    <ul>
+                        <li>No interference with other devices</li>
+                    </ul>
+                </li>
+                <li>UL1310, Class 2 Approvals</li>
                 <li>Meets UL spill requirements</li>
+                <li>Meets USB.org Charging 1.2 specs</li>
             </ul>
             
-        </div>
+        </div>-->
         <div class="sub-menu">
-             <a data-role="button" data-icon="home" href="components/productViewStafford/view.html" data-transition="fade"> Product Home</a>
-             <a data-role="button" data-icon="organize" href="components/productViewStaffordSubViewGallery/view.html" data-transition="fade"> Gallery</a>
+            <a data-role="button" data-icon="home" href="components/productViewStafford/view.html" data-transition="fade"> Product Home</a>
+            <a data-role="button" data-icon="organize" href="components/productViewStaffordSubViewGallery/view.html" data-transition="fade"> Gallery</a>
         </div>
     </div>
 </div>

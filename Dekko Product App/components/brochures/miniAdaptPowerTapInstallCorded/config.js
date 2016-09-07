@@ -1,0 +1,1 @@
+IDRViewer.config = {"pagecount":1,"title":"Mini Adapt - Corded - REV A - NOT TRANSLATED - 02.03.2016.cdr","author":"Client 1","fileName":"Mini_Adapt___Corded___REV_A___NOT_TRANSLATED___07_23_2016.pdf","bounds":[[935,1210]],"bookmarks":[{"title":"Page 1","page":1}],"thumbnailType":"jpg","pageType":"html","pageLabels":[]};

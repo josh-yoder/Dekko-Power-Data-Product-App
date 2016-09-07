@@ -1,0 +1,1 @@
+IDRViewer.config = {"pagecount":2,"title":"Ashley Duo - Corded - REV D - TRANSLATED - 07.23.2016.cdr","author":"Client 1","fileName":"Ashley_Duo___Corded___REV_D___TRANSLATED___07_23_2016.pdf","bounds":[[935,1210],[935,1210]],"bookmarks":[{"title":"Page 1","page":1},{"title":"Page 2","page":2}],"thumbnailType":"jpg","pageType":"html","pageLabels":[]};

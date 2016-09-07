@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<style type="text/css"><![CDATA[
+.g2_3{
+fill: none;
+stroke: #65666A;
+stroke-width: 1;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+stroke-miterlimit: 4;
+}
+.g1_3{
+fill: #CAC8C7;
+}
+]]></style>
+</defs>
+<path d="M869,62l11,0L880,0L869,0l0,62Z" class="g1_3" />
+<image x="542" y="196" width="340" height="215" xlink:href="img/1.png" />
+<path d="M544.5,408.5l335,0l0,-210l-335,0l0,210Z" class="g2_3" />
+<path d="M82.5,171.5l798,0" class="g2_3" />
+<image x="540" y="705" width="340" height="209" xlink:href="img/2.png" />
+<path d="M541.5,911.5l339,0l0,-204l-339,0l0,204Z" class="g2_3" />
+<path d="M82.5,680.5l798,0" class="g2_3" />
+<image x="282" y="420" width="275" height="205" style="mix-blend-mode: multiply;" xlink:href="img/3.png" />
+<image x="154" y="420" width="273" height="205" style="mix-blend-mode: multiply;" xlink:href="img/4.png" />
+<image x="21" y="415" width="264" height="206" style="mix-blend-mode: multiply;" xlink:href="img/5.png" />
+<image x="311" y="921" width="241" height="181" style="mix-blend-mode: multiply;" xlink:href="img/6.png" />
+<image x="169" y="921" width="241" height="181" style="mix-blend-mode: multiply;" xlink:href="img/7.png" />
+<image x="27" y="921" width="241" height="181" style="mix-blend-mode: multiply;" xlink:href="img/8.png" />
+</svg>

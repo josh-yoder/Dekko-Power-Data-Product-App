@@ -340,6 +340,26 @@ footer .home-menu h3 a {
 .ashDuo-slider { 
   height: 56.3vh;  
 } 
+/*ASHLEY DUO INFORMATION*/
+.ash-duo-main .products ul li {
+  display: inline-block;
+  max-width: 36%;
+  margin: 1% 3%;
+}
+.ash-duo-main .products ul li a img {
+  max-width: 100%;
+  margin-bottom: 0.75vh;
+}
+.ash-duo-main .products ul li a.km-button {
+  color: #000000;
+  font-family: brandonLight;
+  border: 0 none;
+  text-align: center;
+  font-size: 3vw;
+  padding: 0;
+  border-radius: 0;
+  vertical-align: top;
+}
 /*ASHLEY DUO AIR PRODUCT*/
 
 /*ASHLEY DUO AIR PRODUCT GALLERY*/
@@ -372,42 +392,182 @@ footer .home-menu h3 a {
 .ashDuoBezel-slider { 
   height: 56.3vh; 
 } 
+/*ASHLEY DUO BEZEL INFORMATION*/
+.ash-duo-bezel-main .products ul li {
+  display: inline-block;
+  max-width: 36%;
+  margin: 1% 3%;
+}
+.ash-duo-bezel-main .products ul li a img {
+  max-width: 100%;
+  margin-bottom: 0.75vh;
+}
+.ash-duo-bezel-main .products ul li a.km-button {
+  color: #000000;
+  font-family: brandonLight;
+  border: 0 none;
+  text-align: center;
+  font-size: 3vw;
+  padding: 0;
+  border-radius: 0;
+  vertical-align: top;
+}
 /*ASHLEY DUO WEDGE PRODUCT*/
 
 /*ASHLEY DUO WEDGE PRODUCT GALLERY*/
 .ashDuoWedge-slider { 
   height: 56.3vh; 
-} 
+}
+/*ASHLEY DUO WEDGE INFORMATION*/
+.ash-duo-wedge-main .products ul li {
+  display: inline-block;
+  max-width: 36%;
+  margin: 1% 3%;
+}
+.ash-duo-wedge-main .products ul li a img {
+  max-width: 100%;
+  margin-bottom: 0.75vh;
+}
+.ash-duo-wedge-main .products ul li a.km-button {
+  color: #000000;
+  font-family: brandonLight;
+  border: 0 none;
+  text-align: center;
+  font-size: 3vw;
+  padding: 0;
+  border-radius: 0;
+  vertical-align: top;
+}  
 /*ASHLEY DUO UNDER PRODUCT*/
 
 /*ASHLEY DUO UNDER PRODUCT GALLERY*/
 .ashDuoUnder-slider { 
   height: 56.3vh;  
+}
+/*ASHLEY DUO UNDER INFORMATION*/
+.ash-duo-under-main .products ul li {
+  display: inline-block;
+  max-width: 36%;
+  margin: 1% 3%;
+}
+.ash-duo-under-main .products ul li a img {
+  max-width: 100%;
+  margin-bottom: 0.75vh;
+}
+.ash-duo-under-main .products ul li a.km-button {
+  color: #000000;
+  font-family: brandonLight;
+  border: 0 none;
+  text-align: center;
+  font-size: 3vw;
+  padding: 0;
+  border-radius: 0;
+  vertical-align: top;
 } 
 /*ASHLEY TRIO PRODUCT*/
 
 /*ASHLEY TRIO PRODUCT GALLERY*/
 .ashTrio-slider { 
   height: 56.3vh; 
-} 
+}
+/*ASHLEY TRIO INFORMATION*/
+.ash-trio-plus-main .products ul li {
+  display: inline-block;
+  max-width: 36%;
+  margin: 1% 3%;
+}
+.ash-trio-plus-main .products ul li a img {
+  max-width: 100%;
+  margin-bottom: 0.75vh;
+}
+.ash-trio-plus-main .products ul li a.km-button {
+  color: #000000;
+  font-family: brandonLight;
+  border: 0 none;
+  text-align: center;
+  font-size: 3vw;
+  padding: 0;
+  border-radius: 0;
+  vertical-align: top;
+}  
 /*ASHLEY TRIO BEZEL PRODUCT*/
 
 /*ASHLEY TRIO BEZEL PRODUCT GALLERY*/
 .ashTrioBezel-slider { 
   height: 56.3vh; 
+}
+/*ASHLEY TRIO BEZEL INFORMATION*/
+.ash-trio-plus-bezel-main .products ul li {
+  display: inline-block;
+  max-width: 36%;
+  margin: 1% 3%;
+}
+.ash-trio-plus-bezel-main .products ul li a img {
+  max-width: 100%;
+  margin-bottom: 0.75vh;
+}
+.ash-trio-plus-bezel-main .products ul li a.km-button {
+  color: #000000;
+  font-family: brandonLight;
+  border: 0 none;
+  text-align: center; 
+  font-size: 3vw;
+  padding: 0;
+  border-radius: 0;
+  vertical-align: top;
 } 
-/*ASHLEY TRIO UNDER PRODUCT*/
+/*ASHLEY TRIO UNDER PRODUCT*/ 
 
 /*ASHLEY TRIO UNDER PRODUCT GALLERY*/
 .ashTrioUnder-slider { 
   height: 56.3vh; 
-} 
+}
+/*ASHLEY TRIO UNDER INFORMATION*/
+.ash-trio-plus-under-main .products ul li {
+  display: inline-block;
+  max-width: 36%;
+  margin: 1% 3%;
+}
+.ash-trio-plus-under-main .products ul li a img {
+  max-width: 100%;
+  margin-bottom: 0.75vh;
+}
+.ash-trio-plus-under-main .products ul li a.km-button {
+  color: #000000;
+  font-family: brandonLight;
+  border: 0 none;
+  text-align: center; 
+  font-size: 3vw;
+  padding: 0;
+  border-radius: 0;
+  vertical-align: top;
+}  
 /*MINI TAP POWER TAP PRODUCT*/
-
+mini-adapt-power-tap
 /*MINI TAP POWER TAP PRODUCT GALLERY*/
 .miniTap-slider { 
   height: 56.3vh; 
-} 
+}
+/*MINI ADAPT INFORMATION*/
+.mini-adapt-power-tap-main .products ul li {
+  display: inline-block;
+  max-width: 36%;
+  margin: 1% 3%;
+}
+.mini-adapt-power-tap-main .products ul li a img {
+  max-width: 100%;
+  margin-bottom: 0.75vh;
+}
+.mini-adapt-power-tap-main .products ul li a.km-button {
+  color: #000000;
+  font-family: brandonLight;
+  border: 0 none;
+  text-align: center; 
+  font-size: 3vw;
+  padding: 0;
+  border-radius: 0;
+  vertical-align: top;
+}   
 /*POP UP POWER TAP PRODUCT*/
 
 /*POP UP POWER TAP PRODUCT GALLERY*/
@@ -420,6 +580,26 @@ footer .home-menu h3 a {
 .stafford-slider { 
   height: 56.3vh; 
 } 
+/*STAFFORD INFORMATION*/
+.stafford-main .products ul li {
+  display: inline-block;
+  max-width: 36%;
+  margin: 1% 3%;
+}
+.stafford-main .products ul li a img {
+  max-width: 100%;
+  margin-bottom: 0.75vh;
+}
+.stafford-main .products ul li a.km-button {
+  color: #000000;
+  font-family: brandonLight;
+  border: 0 none;
+  text-align: center; 
+  font-size: 3vw;
+  padding: 0;
+  border-radius: 0;
+  vertical-align: top;
+}
 /*STAFFORD MINI PRODUCT*/
 
 /*STAFFORD MINI PRODUCT GALLERY*/
