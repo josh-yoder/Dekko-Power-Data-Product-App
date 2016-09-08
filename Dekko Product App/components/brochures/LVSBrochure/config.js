@@ -1,0 +1,1 @@
+IDRViewer.config = {"pagecount":2,"title":"","author":"","fileName":"4x6_Product_Cards_LVS_6_3_16.pdf","bounds":[[440,660],[440,660]],"bookmarks":[],"thumbnailType":"jpg","pageType":"html","pageLabels":["3","4"]};

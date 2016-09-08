@@ -1,0 +1,1 @@
+IDRViewer.config = {"pagecount":3,"title":"LVS 8 Pack - REV A - NOT TRANSLATED - 03.29.2016.cdr","author":"Client 1","fileName":"LVS_8_Pack___REV_A___NOT_TRANSLATED___07_23_2016.pdf","bounds":[[935,1210],[935,1210],[935,1210]],"bookmarks":[{"title":"Page 1","page":1},{"title":"Page 2","page":2},{"title":"Page 3","page":3}],"thumbnailType":"jpg","pageType":"html","pageLabels":[]};

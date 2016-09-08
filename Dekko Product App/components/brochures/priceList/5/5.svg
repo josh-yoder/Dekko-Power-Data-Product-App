@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<style type="text/css"><![CDATA[
+.g1_5{
+fill: #FFFFFF;
+}
+]]></style>
+</defs>
+<image x="108" y="474" width="113" height="84" xlink:href="img/1.png" />
+<image x="502" y="472" width="115" height="81" xlink:href="img/2.png" />
+<image x="305" y="472" width="111" height="86" xlink:href="img/3.png" />
+<image x="699" y="160" width="131" height="86" xlink:href="img/4.png" />
+<image x="108" y="605" width="136" height="106" xlink:href="img/5.png" />
+<image x="502" y="614" width="140" height="100" xlink:href="img/6.png" />
+<image x="305" y="606" width="135" height="107" xlink:href="img/7.png" />
+<image x="108" y="170" width="106" height="83" xlink:href="img/8.png" />
+<image x="502" y="170" width="111" height="84" xlink:href="img/9.png" />
+<image x="305" y="170" width="106" height="85" xlink:href="img/10.png" />
+<image x="108" y="310" width="132" height="86" xlink:href="img/11.png" />
+<path d="M110,455l124,0l0,-49l-124,0l0,49Z" class="g1_5" />
+<path d="M307,607l117,0l0,-49l-117,0l0,49Z" class="g1_5" />
+<path d="M504,607l111,0l0,-49l-111,0l0,49Z" class="g1_5" />
+<path d="M307,757l124,0l0,-49l-124,0l0,49Z" class="g1_5" />
+<path d="M504,757l120,0l0,-49l-120,0l0,49Z" class="g1_5" />
+<image x="305" y="320" width="106" height="83" xlink:href="img/12.png" />
+<image x="699" y="320" width="105" height="84" xlink:href="img/13.png" />
+<image x="502" y="320" width="107" height="85" xlink:href="img/14.png" />
+<path d="M504,455l117,0l0,-49l-117,0l0,49Z" class="g1_5" />
+<path d="M701,455l111,0l0,-49l-111,0l0,49Z" class="g1_5" />
+<path d="M307,455l67,0l0,-49l-67,0l0,49Z" class="g1_5" />
+<path d="M701,305l99,0l0,-49l-99,0l0,49Z" class="g1_5" />
+<path d="M110,607l64,0l0,-49l-64,0l0,49Z" class="g1_5" />
+<image x="108" y="766" width="123" height="110" xlink:href="img/15.png" />
+<image x="305" y="766" width="123" height="110" xlink:href="img/16.png" />
+<image x="502" y="770" width="110" height="101" xlink:href="img/17.png" />
+<image x="699" y="777" width="158" height="104" xlink:href="img/18.png" />
+<path d="M307,945l80,0l0,-49l-80,0l0,49Z" class="g1_5" />
+<path d="M504,945l127,0l0,-49l-127,0l0,49Z" class="g1_5" />
+<path d="M701,945l156,0l0,-49l-156,0l0,49Z" class="g1_5" />
+<path d="M110,945l49,0l0,-49l-49,0l0,49Z" class="g1_5" />
+<path d="M110,757l75,0l0,-49l-75,0l0,49Z" class="g1_5" />
+<path d="M307,305l117,0l0,-49l-117,0l0,49Z" class="g1_5" />
+<path d="M504,305l111,0l0,-49l-111,0l0,49Z" class="g1_5" />
+<path d="M110,305l63,0l0,-49l-63,0l0,49Z" class="g1_5" />
+<image x="817" y="879" width="32" height="18" xlink:href="img/19.png" />
+<image x="817" y="866" width="31" height="15" xlink:href="img/20.png" />
+<image x="817" y="896" width="39" height="20" xlink:href="img/21.png" />
+<image x="855" y="866" width="32" height="50" xlink:href="img/22.png" />
+<image x="847" y="866" width="10" height="15" xlink:href="img/23.png" />
+<image x="641.25" y="851.199" width="3" height="19" xlink:href="img/24.png" transform="scale(1.333 , 1.052)" />
+<image x="847" y="879" width="9" height="18" xlink:href="img/25.png" />
+<image x="847" y="866" width="9" height="15" xlink:href="img/26.png" />
+<image x="847" y="896" width="9" height="20" xlink:href="img/27.png" />
+<image x="618" y="528" width="30" height="46" xlink:href="img/28.png" />
+</svg>

@@ -1,0 +1,1 @@
+IDRViewer.config = {"pagecount":1,"title":"Ashley Wedge - Corded - REV A - NOT TRANSLATED - 03.30.2016.cdr","author":"Client 1","fileName":"Ashley_Wedge___Corded___REV_A___NOT_TRANSLATED___04_01_2016.pdf","bounds":[[935,1210]],"bookmarks":[{"title":"Page 1","page":1}],"thumbnailType":"jpg","pageType":"html","pageLabels":[]};
