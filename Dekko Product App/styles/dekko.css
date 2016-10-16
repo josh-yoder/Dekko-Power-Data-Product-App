@@ -343,7 +343,7 @@ footer .home-menu h3 a {
 /*ASHLEY DUO INFORMATION*/
 .ash-duo-main .products ul li {
   display: inline-block;
-  max-width: 36%;
+  max-width: 30%;
   margin: 1% 3%;
 }
 .ash-duo-main .products ul li a img {
@@ -355,7 +355,7 @@ footer .home-menu h3 a {
   font-family: brandonLight;
   border: 0 none;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.25vw;
   padding: 0;
   border-radius: 0;
   vertical-align: top;
@@ -369,7 +369,7 @@ footer .home-menu h3 a {
 /*ASHLEY DUO AIR INFORMATION*/
 .ash-duo-air-main .products ul li {
   display: inline-block;
-  max-width: 36%;
+  max-width: 27%;
   margin: 1% 3%;
 }
 .ash-duo-air-main .products ul li a img {
@@ -381,7 +381,7 @@ footer .home-menu h3 a {
   font-family: brandonLight;
   border: 0 none;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.25vw;
   padding: 0;
   border-radius: 0;
   vertical-align: top;
@@ -395,7 +395,7 @@ footer .home-menu h3 a {
 /*ASHLEY DUO BEZEL INFORMATION*/
 .ash-duo-bezel-main .products ul li {
   display: inline-block;
-  max-width: 36%;
+  max-width: 27%;
   margin: 1% 3%;
 }
 .ash-duo-bezel-main .products ul li a img {
@@ -407,7 +407,7 @@ footer .home-menu h3 a {
   font-family: brandonLight;
   border: 0 none;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.25vw;
   padding: 0;
   border-radius: 0;
   vertical-align: top;
@@ -421,7 +421,7 @@ footer .home-menu h3 a {
 /*ASHLEY DUO WEDGE INFORMATION*/
 .ash-duo-wedge-main .products ul li {
   display: inline-block;
-  max-width: 36%;
+  max-width: 27%;
   margin: 1% 3%;
 }
 .ash-duo-wedge-main .products ul li a img {
@@ -433,7 +433,7 @@ footer .home-menu h3 a {
   font-family: brandonLight;
   border: 0 none;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.25vw;
   padding: 0;
   border-radius: 0;
   vertical-align: top;
@@ -446,8 +446,8 @@ footer .home-menu h3 a {
 }
 /*ASHLEY DUO UNDER INFORMATION*/
 .ash-duo-under-main .products ul li {
-  display: inline-block;
-  max-width: 36%;
+  display: inline-block; 
+  max-width: 27%;
   margin: 1% 3%;
 }
 .ash-duo-under-main .products ul li a img {
@@ -459,7 +459,7 @@ footer .home-menu h3 a {
   font-family: brandonLight;
   border: 0 none;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.25vw;
   padding: 0;
   border-radius: 0;
   vertical-align: top;
@@ -473,7 +473,7 @@ footer .home-menu h3 a {
 /*ASHLEY TRIO INFORMATION*/
 .ash-trio-plus-main .products ul li {
   display: inline-block;
-  max-width: 36%;
+  max-width: 27%;
   margin: 1% 3%;
 }
 .ash-trio-plus-main .products ul li a img {
@@ -485,7 +485,7 @@ footer .home-menu h3 a {
   font-family: brandonLight;
   border: 0 none;
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.25vw;
   padding: 0;
   border-radius: 0;
   vertical-align: top;
@@ -499,7 +499,7 @@ footer .home-menu h3 a {
 /*ASHLEY TRIO BEZEL INFORMATION*/
 .ash-trio-plus-bezel-main .products ul li {
   display: inline-block;
-  max-width: 36%;
+  max-width: 27%;
   margin: 1% 3%;
 }
 .ash-trio-plus-bezel-main .products ul li a img {
@@ -511,7 +511,7 @@ footer .home-menu h3 a {
   font-family: brandonLight;
   border: 0 none;
   text-align: center; 
-  font-size: 3vw;
+  font-size: 2.25vw;
   padding: 0;
   border-radius: 0;
   vertical-align: top;
@@ -525,7 +525,7 @@ footer .home-menu h3 a {
 /*ASHLEY TRIO UNDER INFORMATION*/
 .ash-trio-plus-under-main .products ul li {
   display: inline-block;
-  max-width: 36%;
+  max-width: 27%;
   margin: 1% 3%;
 }
 .ash-trio-plus-under-main .products ul li a img {
@@ -537,7 +537,7 @@ footer .home-menu h3 a {
   font-family: brandonLight;
   border: 0 none;
   text-align: center; 
-  font-size: 3vw;
+  font-size: 2.25vw;
   padding: 0;
   border-radius: 0;
   vertical-align: top;
@@ -551,7 +551,7 @@ mini-adapt-power-tap
 /*MINI ADAPT INFORMATION*/
 .mini-adapt-power-tap-main .products ul li {
   display: inline-block;
-  max-width: 36%;
+  max-width: 27%;
   margin: 1% 3%;
 }
 .mini-adapt-power-tap-main .products ul li a img {
@@ -563,7 +563,7 @@ mini-adapt-power-tap
   font-family: brandonLight;
   border: 0 none;
   text-align: center; 
-  font-size: 3vw;
+  font-size: 2.25vw;
   padding: 0;
   border-radius: 0;
   vertical-align: top;
@@ -583,7 +583,7 @@ mini-adapt-power-tap
 /*STAFFORD INFORMATION*/
 .stafford-main .products ul li {
   display: inline-block;
-  max-width: 36%;
+  max-width: 27%;
   margin: 1% 3%;
 }
 .stafford-main .products ul li a img {
@@ -595,7 +595,7 @@ mini-adapt-power-tap
   font-family: brandonLight;
   border: 0 none;
   text-align: center; 
-  font-size: 3vw;
+  font-size: 2.25vw;
   padding: 0;
   border-radius: 0;
   vertical-align: top;
@@ -608,8 +608,8 @@ mini-adapt-power-tap
 } 
 /*LVS INFORMATION*/
 .lvs-main .products ul li {
-  display: inline-block;
-  max-width: 36%;
+  display: inline-block; 
+  max-width: 27%;
   margin: 1% 3%;
 }
 .lvs-main .products ul li a img {
@@ -621,7 +621,7 @@ mini-adapt-power-tap
   font-family: brandonLight;
   border: 0 none;
   text-align: center; 
-  font-size: 3vw;
+  font-size: 2.25vw;
   padding: 0;
   border-radius: 0;
   vertical-align: top;
