@@ -4,9 +4,25 @@ app.productViewLVSVideo = kendo.observable({
     onShow: function() {
     },
     afterShow: function() {
-        window.plugins.html5Video.initialize({'lvsVideo': 'lvsvideo525new.mp4'}); 
+        
+            // Depending on the device, a few examples are:
+    //   - "Android"
+    //   - "BlackBerry"
+    //   - "iOS"
+    //   - "webOS"
+    //   - "WinCE"
+    //   - "Tizen"
+        var devicePlatform = device.platform;
+            
+        if(devicePlatform == "Android"){
+            window.plugins.html5Video.initialize({'lvsVideo': 'lvsvideo525new.mp4'}); 
 
-        window.plugins.html5Video.play("lvsVideo");
+            window.plugins.html5Video.play("lvsVideo");
+        }
+        
+        //window.plugins.html5Video.initialize({'lvsVideo': 'lvsvideo525new.mp4'}); 
+
+        //window.plugins.html5Video.play("lvsVideo");
       
         $('#lvsVideo').on('play', function(){
         
@@ -26,7 +42,7 @@ app.productViewLVSVideo = kendo.observable({
                 elem.mozRequestFullScreen();
             } else if (elem.webkitExitFullscreen) {
                 elem.webkitExitFullscreen();  
-            }  
+            }
              
             //window.screen.lockOrientation('portrait');
             
