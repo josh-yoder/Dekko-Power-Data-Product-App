@@ -1,7 +1,7 @@
 'use strict';
 
 app.powerDataView = kendo.observable({
-    onShow: function() {
+    onShow: function() {  
         window.screen.lockOrientation('portrait');
         
         $('div[data-url="components/productViewLVSVideo/view.html"]').children('header').show();
