@@ -1,0 +1,1 @@
+IDRViewer.config = {"pagecount":1,"title":"G110258 - Ashley Uno - Conduit - REV A - NOT TRANSLATED - 11.21.2016.cdr","author":"Client 1","fileName":"G110258___Ashley_Uno___Conduit___REV_A___NOT_TRANSLATED___11_21_2016.pdf","bounds":[[935,1210]],"bookmarks":[{"title":"Page 1","page":1,"zoom":"XYZ -6 1216 0"}],"thumbnailType":"jpg","pageType":"html","pageLabels":[]};

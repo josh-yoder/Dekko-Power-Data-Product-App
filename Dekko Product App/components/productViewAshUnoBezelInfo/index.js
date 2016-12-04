@@ -1,6 +1,6 @@
 'use strict';
 
-app.productViewAshUnoInfo = kendo.observable({
+app.productViewAshUnoBezelInfo = kendo.observable({
     onShow: function() {
         //window.screen.lockOrientation('portrait');
     }, 
@@ -9,7 +9,7 @@ app.productViewAshUnoInfo = kendo.observable({
 
 // Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes
 (function () {
-    app.productViewAshUnoInfo.set('title', 'Ashley Uno System Information');
+    app.productViewAshUnoBezelInfo.set('title', 'Ashley Uno Bezel System Information');
     
     //var dataSource = new kendo.data.DataSource({
     //    data: [{ id: 1, name: 'Bob' }, { id: 2, name: 'Mary' }, { id: 3, name: 'John' }]

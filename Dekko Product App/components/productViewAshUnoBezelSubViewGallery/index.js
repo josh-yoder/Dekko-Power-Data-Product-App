@@ -1,14 +1,14 @@
 'use strict';
 
-app.productViewAshUnoSubViewGallery = kendo.observable({
+app.productViewAshUnoBezelSubViewGallery = kendo.observable({
     onShow: function() {
         window.screen.lockOrientation('portrait');
-        if($('.ashDuo-slider').hasClass('slick-initialized')) {
-            $('.ashDuo-slider').slick('unslick');
+        if($('.ashDuoBezel-slider').hasClass('slick-initialized')) {
+            $('.ashDuoBezel-slider').slick('unslick');
         }
     },
     afterShow: function() {
-        $('.ashDuo-slider').slick({
+        $('.ashDuoBezel-slider').slick({
             autoplay: true,
             autoplaySpeed: 3500,
             infinite: true,
@@ -23,7 +23,7 @@ app.productViewAshUnoSubViewGallery = kendo.observable({
 
 // Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes
 (function () {
-    app.productViewAshleyUnoSubViewGallery.set('title', 'Ashley Uno');
+    app.productViewAshUnoBezelSubViewGallery.set('title', 'Ashley Uno Bezel Gallery');
     
     //var dataSource = new kendo.data.DataSource({
     //    data: [{ id: 1, name: 'Bob' }, { id: 2, name: 'Mary' }, { id: 3, name: 'John' }]
