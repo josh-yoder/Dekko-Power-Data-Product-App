@@ -1,0 +1,1 @@
+IDRViewer.config = {"pagecount":2,"title":"GD-Ashley 202 Series.indd","author":"","fileName":"Ashley202Series_102516.pdf","bounds":[[935,1210],[935,1210]],"bookmarks":[],"thumbnailType":"jpg","pageType":"html","pageLabels":[]};
